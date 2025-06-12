@@ -1,4 +1,4 @@
-import mongoose from "npm:mongoose";
+import mongoose from "mongoose";
 
 const DATABASE_URI = Deno.env.get("DATABASE_URI");
 

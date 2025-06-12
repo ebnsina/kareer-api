@@ -1,4 +1,4 @@
-import { model, Schema } from "npm:mongoose";
+import { model, Schema } from "mongoose";
 
 const jobSchema = new Schema(
   {

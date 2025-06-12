@@ -2,8 +2,8 @@
 import express from "express";
 import "jsr:@std/dotenv/load";
 import * as http from "node:http";
-import cors from "npm:cors";
-import { Server } from "npm:socket.io";
+import cors from "cors";
+import { Server } from "socket.io";
 import { CLIENT_URL, DATABASE_URI, PORT } from "./lib/constants.ts";
 import { connectToDB } from "./lib/db.ts";
 import adminRoutes from "./routes/admin.route.ts";

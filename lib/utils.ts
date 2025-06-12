@@ -1,4 +1,4 @@
-import jwt from "npm:jsonwebtoken";
+import jwt from "jsonwebtoken";
 import { JWT_SECRET } from "./constants.ts";
 
 interface User {

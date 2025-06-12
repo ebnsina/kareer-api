@@ -1,4 +1,4 @@
-import jwt from "npm:jsonwebtoken";
+import jwt from "jsonwebtoken";
 import { JWT_SECRET } from "../lib/constants.ts";
 
 export function isAuth(req, res, next) {
